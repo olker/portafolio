@@ -1,0 +1,7 @@
+.skills__img, .hobbies__img{
+    width: 24px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
