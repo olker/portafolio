@@ -5,3 +5,8 @@
     padding: 0px;
     gap: 32px;
 }
+@media (max-width: 768px) {
+    .menu__list{
+        align-items: flex-end;
+    }
+} 

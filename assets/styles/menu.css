@@ -6,3 +6,10 @@ section.menu{
     padding: 32px 0px;
     gap: 100px;
 }
+@media (max-width: 768px) {
+    section.menu{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+} 

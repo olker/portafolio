@@ -5,3 +5,8 @@
     padding: 0px;
     gap: 8px;
 }
+@media (max-width: 768px) {
+    .menu__header{
+        justify-content: space-between;
+    }
+} 
