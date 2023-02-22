@@ -1,0 +1,6 @@
+.formcontato__contacto{
+    display: flex;
+    align-items: center;
+    padding: 64px;
+    gap: 25px;
+}

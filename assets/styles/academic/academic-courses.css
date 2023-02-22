@@ -5,3 +5,8 @@
     padding: 0px;
     gap: 16px;
 }
+@media (max-width: 768px) {
+    .academic__courses{
+        flex-direction: column;
+    }
+}

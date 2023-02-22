@@ -5,3 +5,8 @@
     padding: 0px;
     gap: 12px;
 }
+@media (max-width: 768px) {
+    .title__container{
+        gap: 8px;
+    }
+}

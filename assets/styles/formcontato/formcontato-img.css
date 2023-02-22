@@ -1,0 +1,8 @@
+.formcontato__img{
+    height: 553px;
+}
+@media (min-width: 768px) {
+    .formcontato__img{
+        height: 200px;
+    }
+}

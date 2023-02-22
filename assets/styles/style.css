@@ -47,78 +47,6 @@ https://en.bem.info/methodology/quick-start/*/
 }
 /*Contacto*/
 
-section.formcontato{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    background: #EAF2FD;
-}
-.formcontato__contacto{
-    display: flex;
-    align-items: center;
-    padding: 64px;
-    gap: 25px;
-}
-.formcontato__img{
-    height: 553px;
-}
-.formcontato__text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-}
-.formcontato__title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-}
-.formcontato__subtext{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-}
-.formcontato__form{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-}
-/*footeer*/
-.formcontato__input , .formcontato__textarea{
-    width: 650px;
-    font-size: 16px;
-    line-height: 20px;
-    border-radius: 4px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    padding: 28px 8px 12px 20px;
-    border: none;
-}
-.formcontato__botao{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 10px;
-    color: #ffff;
-    border: none;
-    background: #2A7AE4;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
 section.footer{
     display: flex;
     flex-direction: row;
@@ -138,20 +66,10 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+@media (max-width: 768px) {
+    .tudo{
+        padding: 0px 25px;
+    }
 }
 
 /*Mobile*/
